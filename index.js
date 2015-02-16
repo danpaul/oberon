@@ -42,8 +42,8 @@ module.exports = function(options, callback){
                 if( response.status === 'success' ){
 
 // WHILE TESTING DONT DELETE
-callback(null, response)
-return;
+// callback(null, response)
+// return;
 
                     self.sendConfirmation(response, function(err){
                         if( err ){ callback(err) }
